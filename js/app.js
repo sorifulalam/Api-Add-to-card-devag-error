@@ -11,7 +11,7 @@ const loadProducts = (url) => {
 
 loadProducts('https://fakestoreapi.com/products');
 
-// show all product in UI
+// show all product in UI of all 
 const showProducts = (products) => {
    
    setInnerText('total_products', products.length);
